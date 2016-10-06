@@ -16,6 +16,18 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- carrier size -->
+    <string-array name="entries_carrier_size_style" translatable="false">
+        <item>@string/carrier_size_style_normal</item>
+        <item>@string/carrier_size_style_small</item>
+        <item>@string/carrier_size_style_big</item>
+    </string-array>
+
+    <string-array name="values_carrier_size_style" translatable="false">
+        <item>5</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
 
     <!-- Statusbar clock -->
     <string-array name="status_bar_clock_style_entries" translatable="false">
