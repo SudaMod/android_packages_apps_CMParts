@@ -271,7 +271,7 @@
     <string name="profile_setup_actions_description">现在配置当配置文件被激活时会发生什么情况</string>
 
     <!-- Profiles settings  -->
-    <string name="profiles_settings_title">系统简介</string>
+    <string name="profiles_settings_title">情景模式</string>
     <string name="profiles_add">添加</string>
     <string name="profile_menu_delete">删除</string>
     <string name="profile_settings_title">简况</string>
