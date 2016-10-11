@@ -36,10 +36,11 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
 
-    <uses-permission android:name="cyanogenmod.permission.BIND_CORE_SERVICE" />
+    <uses-permission android:name="cyanogenmod.permission.MANAGE_PARTS" />
 
     <protected-broadcast android:name="cyanogenmod.platform.app.profiles.PROFILES_STATE_CHANGED" />
     <protected-broadcast android:name="org.cyanogenmod.cmparts.PART_CHANGED" />
+    <protected-broadcast android:name="org.cyanogenmod.cmparts.REFRESH_PART" />
 
     <application android:label="@string/cmparts_title"
             android:theme="@style/Theme.Settings"
@@ -58,6 +59,12 @@
         <receiver android:name="BootReceiver" android:enabled="true">
             <intent-filter android:priority="2147483647">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".RefreshReceiver" android:enabled="true">
+            <intent-filter>
+                <action android:name="org.cyanogenmod.cmparts.REFRESH_PART" />
             </intent-filter>
         </receiver>
 
@@ -168,6 +175,17 @@
                  android:label="ReportingService"
                  android:enabled="true"
                  android:exported="false" />
+
+		<!-- Weather settings (dashboard) -->
+        <activity-alias
+            android:name=".weather.WeatherServiceSettings"
+            android:label="@string/weather_settings_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter android:priority="1">
+                <action android:name="cyanogenmod.intent.action.MANAGE_WEATHER_PROVIDER_SERVICES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
 
     </application>
 </manifest>
