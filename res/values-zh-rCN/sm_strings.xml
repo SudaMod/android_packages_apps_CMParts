@@ -62,5 +62,8 @@
     <string name="status_bar_network_traffic_style_up">显示上传速度</string>
     <string name="status_bar_network_traffic_style_down">显示下载速度</string>
     <string name="status_bar_network_traffic_style_all">显示上传和下载速度</string>
+    <!-- Quick reboot menu and Screenshot -->
+    <string name="hardware_keys_action_screenshot">屏幕截图</string>
+    <string name="hardware_keys_action_reboot_menu">高级重启</string>
 
 </resources>

@@ -66,5 +66,8 @@
     <string name="keyguard_toggle_torch_summary">Power key switch flashligh</string>
     <string name="three_finger_gesture_title">Three screenshots</string>
     <string name="three_finger_gesture_summary">Three finger sliding screen screenshot</string>
+    <!-- Quick reboot menu and Screenshot -->
+    <string name="hardware_keys_action_screenshot">Screenshot</string>
+    <string name="hardware_keys_action_reboot_menu">Reboot menu</string>
 
 </resources>

@@ -100,6 +100,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         LAUNCH_CAMERA,
         SLEEP,
         LAST_APP,
+        SCREENSHOT,
+        REBOOT_MENU,
         SPLIT_SCREEN;
 
         public static Action fromIntSafe(int id) {
