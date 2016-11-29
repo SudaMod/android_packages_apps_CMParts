@@ -451,4 +451,6 @@
     <string name="protected_apps_manager_title">受保护的应用程序</string>
     <string name="protected_apps_manager_summary">管理哪些应用程序是隐藏在一个安全的锁</string>
 
+    <string name="status_bar_clock_show_second_title">显示秒钟</string>
+    <string name="status_bar_clock_show_second_summary">时间中显示秒钟</string>
 </resources>

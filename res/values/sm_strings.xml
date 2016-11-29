@@ -70,4 +70,7 @@
     <string name="hardware_keys_action_screenshot">Screenshot</string>
     <string name="hardware_keys_action_reboot_menu">Reboot menu</string>
 
+    <!-- Seconds in clock -->
+    <string name="status_bar_clock_show_second_title">Seconds in clock</string>
+    <string name="status_bar_clock_show_second_summary">Display seconds in status bar clock</string>
 </resources>
