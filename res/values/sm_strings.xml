@@ -70,6 +70,7 @@
     <string name="hardware_keys_action_screenshot">Screenshot</string>
     <string name="hardware_keys_action_reboot_menu">Reboot menu</string>
 
+<<<<<<< HEAD
     <!-- Recents panel settings -->
     <string name="recents_options">Recents Options</string>    
     <string name="recents_options_title">Recents Options Settings</string>
@@ -83,4 +84,9 @@
     <string name="recents_clear_all_location_bottom_right">Bottom right</string>
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+=======
+    <!-- Seconds in clock -->
+    <string name="status_bar_clock_show_second_title">Seconds in clock</string>
+    <string name="status_bar_clock_show_second_summary">Display seconds in status bar clock</string>
+>>>>>>> 81ec1f0086e3483a8048fcffd52a27809a370447
 </resources>
