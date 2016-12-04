@@ -85,4 +85,16 @@
     <!-- Seconds in clock -->
     <string name="status_bar_clock_show_second_title">Seconds in clock</string>
     <string name="status_bar_clock_show_second_summary">Display seconds in status bar clock</string>
+    <!-- Gesture and Direct Control -->
+    <string name="gesture_title">Gesture</string>
+    <string name="gesture_direct_title">Gesture and Direct Control</string>
+    <string name="shake_clean_recent">Clean by shake</string>
+    <string name="shake_clean_recent_summary">Clean recent task by shake</string>
+    <string name="shake_clean_notification">Clean by shake</string>
+    <string name="shake_clean_notification_summary">Clean notification by shake</string>
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
+    <string name="direct_control_title">Direct control</string>
+    <string name="double_tap_to_wake_title">Double-tap to wake</string>
+    <string name="double_tap_to_wake_summary">Double-tap on the screen to turn on the display</string>
 </resources>

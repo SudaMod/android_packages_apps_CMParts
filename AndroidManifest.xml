@@ -190,6 +190,30 @@
             </intent-filter>
         </receiver>
 
+        <!-- Gesture settings (dashboard) -->
+        <activity-alias
+            android:name="org.sudamod.GestureSettings"
+            android:label="@string/gesture_direct_title"
+            android:targetActivity="PartsActivity">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="org.cyanogenmod.cmparts.GESTURES_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_gestures" />
+            <meta-data
+                android:name="org.cyanogenmod.settings.summary.receiver"
+                android:value="org.cyanogenmod.cmparts.PartsUpdater" />
+            <meta-data
+                android:name="org.cyanogenmod.settings.summary.key"
+                android:value="gestures_settings" />
+        </activity-alias>
+
         <service android:label="ReportingService"
             android:enabled="true"
             android:exported="false"
