@@ -105,7 +105,9 @@
           android:fragment="org.cyanogenmod.cmparts.applications.ExpandedDesktopSettings"
           cm:xmlRes="@xml/expanded_desktop_prefs" />
 
-    <part android:fragment="org.sudamod.GestureSettings"
-        android:key="gesture_settings" android:title="@string/gesture_direct_title" />
+    <part android:key="gesture_settings"
+          android:title="@string/gesture_direct_title"
+          android:fragment="org.sudamod.GestureSettings"
+          cm:xmlRes="@xml/gesture_settings" />
 
 </parts-catalog>
