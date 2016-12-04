@@ -97,4 +97,7 @@
     <string name="direct_control_title">Direct control</string>
     <string name="double_tap_to_wake_title">Double-tap to wake</string>
     <string name="double_tap_to_wake_summary">Double-tap on the screen to turn on the display</string>
+
+    <string name="keyguard_toggle_torch_title">Switch flashlight</string>
+    <string name="keyguard_toggle_torch_summary">Power key switch flashligh</string>
 </resources>
