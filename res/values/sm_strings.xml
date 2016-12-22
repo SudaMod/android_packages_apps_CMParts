@@ -100,4 +100,6 @@
 
     <string name="keyguard_toggle_torch_title">Switch flashlight</string>
     <string name="keyguard_toggle_torch_summary">Power key switch flashligh</string>
+    <string name="show_stk_dialog_title">STK dialog box</string>
+    <string name="show_stk_dialog_summary">Open the STK dialog box</string>
 </resources>

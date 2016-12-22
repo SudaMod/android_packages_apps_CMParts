@@ -86,4 +86,6 @@
   <string name="double_tap_to_wake_summary">双击屏幕唤醒手机</string>
   <string name="keyguard_toggle_torch_title">开关手电筒</string>
   <string name="keyguard_toggle_torch_summary">熄屏长按打开手电筒</string>
+  <string name="show_stk_dialog_title">STK对话框</string>
+  <string name="show_stk_dialog_summary">开启STK对话框</string>
 </resources>
