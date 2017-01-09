@@ -495,4 +495,10 @@
   <string name="expanded_desktop_style_hide_navigation">隐藏导航栏</string>
   <string name="expanded_desktop_style_hide_both">同时隐藏</string>
   <string name="expanded_desktop_nothing_to_show_text">关闭开关以自定义您每个应用的扩展桌面</string>
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">强制展开通知</string>
+    <string name="notification_force_expand_summary">如果软件支持，自动展开通知</string>
+    <!-- Quicks settings vibrate -->
+    <string name="quick_settings_vibrate_title">点击振动</string>
+    <string name="quick_settings_vibrate_summary">点击磁块时振动</string>
 </resources>
