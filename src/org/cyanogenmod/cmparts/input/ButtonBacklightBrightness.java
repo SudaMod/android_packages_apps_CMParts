@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2013 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -45,8 +46,6 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
 
     public static final String KEY_BUTTON_BACKLIGHT = "pre_navbar_button_backlight";
 
-    private Window mWindow;
-
     private BrightnessControl mButtonBrightness;
     private BrightnessControl mKeyboardBrightness;
     private BrightnessControl mActiveControl;
@@ -56,6 +55,8 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     private TextView mTimeoutValue;
 
     private ContentResolver mResolver;
+
+    private int mOriginalTimeout;
 
     public ButtonBacklightBrightness(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -88,9 +89,6 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     protected void onClick(AlertDialog d, int which) {
         super.onClick(d, which);
 
-        if (getDialog() != null) {
-            mWindow = getDialog().getWindow();
-        }
         updateBrightnessPreview();
     }
 
@@ -109,6 +107,7 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     protected boolean onDismissDialog(AlertDialog dialog, int which) {
         if (which == DialogInterface.BUTTON_NEUTRAL) {
             mTimeoutBar.setProgress(DEFAULT_BUTTON_TIMEOUT);
+            applyTimeout(DEFAULT_BUTTON_TIMEOUT);
             if (mButtonBrightness != null) {
                 mButtonBrightness.reset();
             }
@@ -129,7 +128,8 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
         mTimeoutValue = (TextView) view.findViewById(R.id.timeout_value);
         mTimeoutBar.setMax(30);
         mTimeoutBar.setOnSeekBarChangeListener(this);
-        mTimeoutBar.setProgress(getTimeout());
+        mOriginalTimeout = getTimeout();
+        mTimeoutBar.setProgress(mOriginalTimeout);
         handleTimeoutUpdate(mTimeoutBar.getProgress());
 
         ViewGroup buttonContainer = (ViewGroup) view.findViewById(R.id.button_container);
@@ -157,6 +157,7 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
         super.onDialogClosed(positiveResult);
 
         if (!positiveResult) {
+            applyTimeout(mOriginalTimeout);
             return;
         }
 
@@ -275,15 +276,17 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     }
 
     private void updateBrightnessPreview() {
-        if (mWindow != null) {
-            LayoutParams params = mWindow.getAttributes();
-            if (mActiveControl != null) {
-                params.buttonBrightness = (float) mActiveControl.getBrightness(false) / 255.0f;
-            } else {
-                params.buttonBrightness = -1;
-            }
-            mWindow.setAttributes(params);
+        if (getDialog() == null || getDialog().getWindow() == null) {
+            return;
         }
+        Window window = getDialog().getWindow();
+        LayoutParams params = window.getAttributes();
+        if (mActiveControl != null) {
+            params.buttonBrightness = (float) mActiveControl.getBrightness(false) / 255.0f;
+        } else {
+            params.buttonBrightness = -1;
+        }
+        window.setAttributes(params);
     }
 
     private void updateTimeoutEnabledState() {
@@ -315,7 +318,7 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
 
     @Override
     public void onStopTrackingTouch(SeekBar seekBar) {
-        // Do nothing here
+        applyTimeout(seekBar.getProgress());
     }
 
     private static class SavedState extends BaseSavedState {
