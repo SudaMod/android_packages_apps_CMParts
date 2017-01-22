@@ -564,13 +564,6 @@
     <string name="expanded_desktop_style_hide_both">Hide both</string>
     <string name="expanded_desktop_nothing_to_show_text">Turn the switch off to customize your expanded desktop on a per-app basis</string>
 
-    <!-- Force expand notifications -->
-    <string name="notification_force_expand_title">Force expanded notifications</string>
-    <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
-    <!-- Quicks settings vibrate -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
-
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Charging sounds</string>
     <string name="charging_sounds_enabled_title">Enable</string>

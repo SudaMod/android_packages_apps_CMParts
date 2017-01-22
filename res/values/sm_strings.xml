@@ -102,4 +102,12 @@
     <string name="keyguard_toggle_torch_summary">Power key switch flashligh</string>
     <string name="show_stk_dialog_title">STK dialog box</string>
     <string name="show_stk_dialog_summary">Open the STK dialog box</string>
+
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Force expanded notifications</string>
+    <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
+    <!-- Quicks settings vibrate -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
 </resources>
