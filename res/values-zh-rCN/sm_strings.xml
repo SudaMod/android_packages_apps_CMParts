@@ -92,4 +92,7 @@
   <string name="notification_force_expand_summary">如果软件支持，自动展开通知</string>
   <string name="quick_settings_vibrate_title">点击振动</string>
   <string name="quick_settings_vibrate_summary">点击磁块时振动</string>
+  <!-- One handed mode -->
+  <string name="one_handed_mode_title">单手模式</string>
+  <string name="one_handed_mode_summary">开启单手模式</string>
 </resources>
