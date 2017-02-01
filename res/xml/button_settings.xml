@@ -102,6 +102,7 @@
             android:summary="@string/power_end_call_summary"
             android:persistent="false"/>
 
+<<<<<<< HEAD
         <SwitchPreference
             android:key="camera_double_tap_power_gesture"
             android:title="@string/camera_double_tap_power_gesture_title"
@@ -115,6 +116,8 @@
             android:summary="@string/keyguard_toggle_torch_summary"
             android:title="@string/keyguard_toggle_torch_title" />
 
+=======
+>>>>>>> 661ea5312a296f7c67edd26c20e8da3188902ebd
     </PreferenceCategory>
 
     <PreferenceCategory

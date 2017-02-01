@@ -106,6 +106,7 @@
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="true" />
 
+<<<<<<< HEAD
     <!-- Double tap to sleep -->
     <cyanogenmod.preference.CMSystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
@@ -119,4 +120,6 @@
             android:summary="@string/show_stk_dialog_summary"
             android:defaultValue="false" />
 
+=======
+>>>>>>> 661ea5312a296f7c67edd26c20e8da3188902ebd
 </PreferenceScreen>
