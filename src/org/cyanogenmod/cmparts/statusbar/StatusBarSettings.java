@@ -129,6 +129,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         // Adjust status bar preferences for RTL
         if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
             mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
+        }
     }
 
     @Override
@@ -138,7 +139,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
             int batteryStyle = Integer.valueOf((String) objValue);
             enableStatusBarBatteryDependents(batteryStyle);
         } else if (preference == mQuickPulldown) {
-            updateQuickPulldownSummary(value);
+		    int quickpulldown = Integer.valueOf((String) objValue);
+            updateQuickPulldownSummary(quickpulldown);
 		} else if (preference == mStatusBarCarrier) {
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getContentResolver(),
@@ -232,8 +234,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 && batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
     }
 
-    private void updateQuickPulldownSummary(int value) {
-        mQuickPulldown.setSummary(value == 0
+    private void updateQuickPulldownSummary(int quickpulldown) {
+        mQuickPulldown.setSummary(quickpulldown == 0
                 ? R.string.status_bar_quick_qs_pulldown_off
                 : R.string.status_bar_quick_qs_pulldown_summary);
     }
