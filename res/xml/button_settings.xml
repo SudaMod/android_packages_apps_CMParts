@@ -15,6 +15,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cm="http://schemas.android.com/apk/res/cyanogenmod.platform"
         android:key="button_settings"
         android:title="@string/button_pref_title">
 
@@ -102,12 +103,12 @@
             android:summary="@string/power_end_call_summary"
             android:persistent="false"/>
 
-
-        <cyanogenmod.preference.SystemSettingSwitchPreference
+        <cyanogenmod.preference.CMSystemSettingSwitchPreference
+            android:key="torch_long_press_power_gesture"
+            android:title="@string/torch_long_press_power_gesture_title"
+            android:summary="@string/torch_long_press_power_gesture_desc"
             android:defaultValue="false"
-            android:key="keyguard_toggle_torch"
-            android:summary="@string/keyguard_toggle_torch_summary"
-            android:title="@string/keyguard_toggle_torch_title" />
+            cm:requiresConfig="@*android:bool/config_supportLongPressPowerWhenNonInteractive" />
 
     </PreferenceCategory>
 
