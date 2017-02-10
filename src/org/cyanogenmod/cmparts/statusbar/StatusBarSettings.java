@@ -59,6 +59,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
 
+    private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
+    private static final String PREF_COLUMNS = "qs_columns";
+
     private CMSystemSettingListPreference mQuickPulldown;
     private CMSystemSettingListPreference mStatusBarBattery;
     private CMSystemSettingListPreference mStatusBarBatteryShowPercent;
@@ -69,6 +72,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private String mCustomCarrierLabelText;
 
     private ListPreference mStatusBarNetworkTraffic;
+
+    private ListPreference mRowsPortrait;
+    private ListPreference mQsColumns;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -120,6 +126,21 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mStatusBarNetworkTraffic
                 .setSummary(mStatusBarNetworkTraffic.getEntry());
         mStatusBarNetworkTraffic.setOnPreferenceChangeListener(this);
+
+
+        mRowsPortrait = (ListPreference) findPreference(PREF_ROWS_PORTRAIT);
+        int rowsPortrait = Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.QS_ROWS_PORTRAIT, 3);
+        mRowsPortrait.setValue(String.valueOf(rowsPortrait));
+        mRowsPortrait.setSummary(mRowsPortrait.getEntry());
+        mRowsPortrait.setOnPreferenceChangeListener(this);
+
+        mQsColumns = (ListPreference) findPreference(PREF_COLUMNS);
+        int columnsQs = Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.QS_COLUMNS, 3);
+        mQsColumns.setValue(String.valueOf(columnsQs));
+        mQsColumns.setSummary(mQsColumns.getEntry());
+        mQsColumns.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -168,6 +189,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                     networkTrafficStyle);
             mStatusBarNetworkTraffic.setSummary(mStatusBarNetworkTraffic
                     .getEntries()[index]);
+        } else if (preference == mRowsPortrait) {
+            int intValue = Integer.valueOf((String) objValue);
+            int index = mRowsPortrait.findIndexOfValue((String) objValue);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.QS_ROWS_PORTRAIT, intValue);
+            preference.setSummary(mRowsPortrait.getEntries()[index]);
+        } else if (preference == mQsColumns) {
+            int intValue = Integer.valueOf((String) objValue);
+            int index = mQsColumns.findIndexOfValue((String) objValue);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.QS_COLUMNS, intValue);
+            preference.setSummary(mQsColumns.getEntries()[index]);
         }
         return true;
     }

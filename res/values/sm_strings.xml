@@ -96,4 +96,8 @@
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
 
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_layout_category">Rows and columns</string>
+    <string name="qs_rows_portrait_title">Rows (portrait)</string>
+    <string name="qs_columns_title">Columns</string>
 </resources>
