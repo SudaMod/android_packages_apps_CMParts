@@ -75,8 +75,6 @@
   <string name="status_bar_clock_show_second_summary">状态栏时钟显示到秒</string>
   <string name="keyguard_toggle_torch_title">开关手电筒</string>
   <string name="keyguard_toggle_torch_summary">熄屏长按打开手电筒</string>
-  <string name="show_stk_dialog_title">STK对话框</string>
-  <string name="show_stk_dialog_summary">开启STK对话框</string>
   <string name="notification_force_expand_title">强制展开通知</string>
   <string name="notification_force_expand_summary">如果软件支持，自动展开通知</string>
   <string name="quick_settings_vibrate_title">点击振动</string>
