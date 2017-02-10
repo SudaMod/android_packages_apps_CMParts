@@ -106,11 +106,6 @@
           android:fragment="org.cyanogenmod.cmparts.applications.ExpandedDesktopSettings"
           cm:xmlRes="@xml/expanded_desktop_prefs" />
 
-    <part android:key="gesture_settings"
-          android:title="@string/gesture_direct_title"
-          android:fragment="org.sudamod.GestureSettings"
-          cm:xmlRes="@xml/gesture_settings" />
-
     <part android:key="charging_sounds_settings"
           android:title="@string/charging_sounds_settings_title"
           android:fragment="org.cyanogenmod.cmparts.sounds.ChargingSoundsSettings"
