@@ -106,6 +106,7 @@
         <item>power</item>
         <item>restart</item>
         <item>screenshot</item>
+        <item>screenrecord</item>
         <item>airplane</item>
         <item>users</item>
         <item>bugreport</item>
