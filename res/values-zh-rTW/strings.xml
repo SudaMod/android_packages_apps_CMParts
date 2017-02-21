@@ -95,7 +95,7 @@
   <string name="notification_light_missed_call_title">未接來電</string>
   <string name="notification_light_voicemail_title">語音信箱</string>
   <string name="notification_light_screen_on">螢幕開啟時依然啟用指示燈</string>
-  <string name="notification_light_zen_mode">在零打擾模式下啟用指示燈</string>
+  <string name="notification_light_zen_mode">在勿干擾模式下啟用指示燈</string>
   <string name="notification_light_use_multiple_leds">多重 LED</string>
   <string name="keywords_lights_brightness_level">降低 LED 亮度</string>
   <string name="notification_light_automagic">自動選擇顏色</string>
@@ -137,6 +137,8 @@
   <string name="live_display_color_profile_adaptive_summary">自動按環境條件調整顏色</string>
   <string name="live_display_color_profile_reading_title">閱讀</string>
   <string name="live_display_color_profile_reading_summary">溫暖的色彩減少眼睛疲勞</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">顏色準確到 sRGB 的色彩空間</string>
   <string name="color_calibration_title">顏色校準</string>
   <string name="color_calibration_summary">校準螢幕上的顏色</string>
   <string name="color_red_title">紅色</string>

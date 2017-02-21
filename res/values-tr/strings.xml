@@ -137,6 +137,8 @@
   <string name="live_display_color_profile_adaptive_summary">Renkleri ortam koşullarına uydur</string>
   <string name="live_display_color_profile_reading_title">Okunuyor</string>
   <string name="live_display_color_profile_reading_summary">Daha az göz yorgunluğu için sıcak renkler</string>
+  <string name="live_display_color_profile_srgb_title">sRGB</string>
+  <string name="live_display_color_profile_srgb_summary">Renkler sRGB renk aralığına göre doğru</string>
   <string name="color_calibration_title">Renk kalibrasyonu</string>
   <string name="color_calibration_summary">Ekran renklerini kalibre edin</string>
   <string name="color_red_title">Kırmızı</string>
@@ -233,7 +235,7 @@
   <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
   <string name="camera_double_tap_power_gesture_desc">Ekran kilidinizi açmadan kamerayı hızlıca açın</string>
   <string name="torch_long_press_power_gesture_title">El feneri için uzun basın</string>
-  <string name="torch_long_press_power_gesture_desc">Ekran kapalıyken ses tuşlarına uzun basarak el fenerini etkinleştirin</string>
+  <string name="torch_long_press_power_gesture_desc">Ekran kapalıyken güç tuşuna uzun basarak el fenerini etkinleştirin</string>
   <!-- Profiles -->
   <string name="profile_menu_delete_title">Sil</string>
   <string name="profile_action_none">Değiştirme</string>
