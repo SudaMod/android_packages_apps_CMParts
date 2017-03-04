@@ -98,7 +98,4 @@
     <string name="qs_layout_category">Rows and columns</string>
     <string name="qs_rows_portrait_title">Rows (portrait)</string>
     <string name="qs_columns_title">Columns</string>
-    <!-- One handed mode -->
-    <string name="one_handed_mode_title">One Handed mode</string>
-    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
 </resources>
