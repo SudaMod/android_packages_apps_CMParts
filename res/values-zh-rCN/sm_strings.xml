@@ -82,4 +82,6 @@
   <string name="qs_layout_category">设置磁贴行数和列数</string>
   <string name="qs_rows_portrait_title">磁贴行数</string>
   <string name="qs_columns_title">磁贴列数</string>
+    <string name="hardware_keys_action_single_handed_left">单手模式(左)</string>
+    <string name="hardware_keys_action_single_handed_right">单手模式(右)</string>
 </resources>
