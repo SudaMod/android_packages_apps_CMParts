@@ -58,6 +58,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
+    private static final int PULLDOWN_DIR_NONE = 0;
+    private static final int PULLDOWN_DIR_RIGHT = 1;
+    private static final int PULLDOWN_DIR_LEFT = 2;
 
     private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
     private static final String PREF_COLUMNS = "qs_columns";
@@ -267,9 +270,23 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                 && batteryIconStyle != STATUS_BAR_BATTERY_STYLE_TEXT);
     }
 
-    private void updateQuickPulldownSummary(int quickpulldown) {
-        mQuickPulldown.setSummary(quickpulldown == 0
-                ? R.string.status_bar_quick_qs_pulldown_off
-                : R.string.status_bar_quick_qs_pulldown_summary);
+    private void updateQuickPulldownSummary(int value) {
+        String summary="";
+        switch (value) {
+            case PULLDOWN_DIR_NONE:
+                summary = getResources().getString(
+                    R.string.status_bar_quick_qs_pulldown_off);
+                break;
+
+            case PULLDOWN_DIR_LEFT:
+            case PULLDOWN_DIR_RIGHT:
+                summary = getResources().getString(
+                    R.string.status_bar_quick_qs_pulldown_summary,
+                    getResources().getString(value == PULLDOWN_DIR_LEFT
+                        ? R.string.status_bar_quick_qs_pulldown_summary_left
+                        : R.string.status_bar_quick_qs_pulldown_summary_right));
+                break;
+        }
+        mQuickPulldown.setSummary(summary);
     }
 }
