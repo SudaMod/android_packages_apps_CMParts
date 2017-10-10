@@ -90,4 +90,7 @@
   <string name="systemui_recents_mem_display_title">显示内存条</string>
   <string name="systemui_recents_mem_display_summary">显示内存使用情况</string>
 
+    <!-- Statusbar 4G LTE switch -->
+    <string name="show_fourg_title">显示 4G</string>
+    <string name="show_fourg_summary">用4G代替LTE状态栏指示灯</string>
 </resources>

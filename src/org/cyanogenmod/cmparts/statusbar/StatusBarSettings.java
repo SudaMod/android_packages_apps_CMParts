@@ -18,6 +18,7 @@ package org.cyanogenmod.cmparts.statusbar;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -27,6 +28,8 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.view.View;
@@ -50,6 +53,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
+    private static final String KEY_SHOW_FOURG = "show_fourg";
 
     private static final String STATUS_BAR_CARRIER = "status_bar_carrier";
     private static final String CUSTOM_CARRIER_LABEL = "custom_carrier_label";
@@ -68,6 +72,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private CMSystemSettingListPreference mQuickPulldown;
     private CMSystemSettingListPreference mStatusBarBattery;
     private CMSystemSettingListPreference mStatusBarBatteryShowPercent;
+    private SwitchPreference mShowFourG;
 
     private SwitchPreference mStatusBarCarrier;
     private PreferenceScreen mCustomCarrierLabel;
@@ -144,6 +149,13 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mQsColumns.setValue(String.valueOf(columnsQs));
         mQsColumns.setSummary(mQsColumns.getEntry());
         mQsColumns.setOnPreferenceChangeListener(this);
+
+	// Show 4G
+        mShowFourG = (SwitchPreference) prefSet.findPreference(KEY_SHOW_FOURG);
+        PackageManager pm = getActivity().getPackageManager();
+        if (!pm.hasSystemFeature(PackageManager.FEATURE_TELEPHONY)) {
+            prefSet.removePreference(mShowFourG);
+        }
     }
 
     @Override
