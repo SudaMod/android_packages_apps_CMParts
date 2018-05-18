@@ -59,7 +59,7 @@
   <string name="privacy_guard_notification_title">Zobraziť upozornenia</string>
   <!-- Notification light dialogs -->
   <string name="edit_light_settings">Upraviť svetelnú signalizáciu</string>
-  <string name="pulse_speed_title">Dĺžka a rýchlosť pulzov</string>
+  <string name="pulse_speed_title">Dĺžka a rýchlosť blikania</string>
   <string name="default_time">Normálny</string>
   <string name="custom_time">Vlastný</string>
   <string name="dialog_delete_title">Vymazať</string>
@@ -95,7 +95,7 @@
   <string name="notification_light_missed_call_title">Zmeškaný hovor</string>
   <string name="notification_light_voicemail_title">Odkazová schránka</string>
   <string name="notification_light_screen_on">Upozorňovať pomocou LED pri zapnutej obrazovke</string>
-  <string name="notification_light_zen_mode">Svetelná signalizácia v režimu „Nerušiť“</string>
+  <string name="notification_light_zen_mode">LED signalizácia v režime Nerušiť</string>
   <string name="notification_light_use_multiple_leds">Viaceré LED</string>
   <string name="keywords_lights_brightness_level">stlmiť jas LED diód</string>
   <string name="notification_light_automagic">Automaticky zvoliť farby</string>
@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Snímka obrazovky</string>
   <string name="power_menu_airplane_title">Režim v lietadle</string>
   <string name="power_menu_users_title">Prepínač používateľov</string>
-  <string name="power_menu_settings_title">Odkaz nastavení</string>
-  <string name="power_menu_lockdown_title">Zamknúť zariadenie</string>
   <string name="power_menu_bug_report_title">Nahlásiť chybu</string>
-  <string name="power_menu_sound_title">Panel zvuku</string>
   <string name="power_menu_bug_report_disabled">Hlásenie chýb je zakázané v nastaveniach pre vývojárov</string>
+  <string name="power_menu_sound_title">Panel zvuku</string>
   <string name="volume_keys_control_ring_stream_title">Ovládanie hlasitosti zvonenia</string>
   <string name="volume_keys_control_ring_stream_summary_on">Tlačidlá hlasitosti ovládajú hlasitosť zvonenia</string>
   <string name="volume_keys_control_ring_stream_summary_off">Tlačidlá hlasitosti ovládajú hlasitosť médií</string>
@@ -396,7 +394,7 @@
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Ikony stavového riadku</string>
   <string name="status_bar_notif_count_title">Zobraziť počítadlo oznámení</string>
-  <string name="status_bar_notif_count_summary">Zobraziť počet čakajúcich oznámení na ikone v stavovom riadku</string>
+  <string name="status_bar_notif_count_summary">Zobraziť počet čakajúcich upozornení v stavovom riadku</string>
   <string name="status_bar_system_icons_title">Systémové ikony</string>
   <string name="status_bar_system_icons_summary">Upraviť zobrazenie ikon v stavovom riadku</string>
   <!-- Status bar - Clock -->
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrovať ak je detekované gesto na dotykovej obrazovke</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Potiahnite nadol dvomi prstami</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Potiahnutie jedným prstom nahor</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Potiahnite prstom nahor od tlačidla Domov</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Potiahnutie jedným prstom nadol</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Potiahnutie jedným prstom doľava</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Potiahnutie jedným prstom doprava</string>

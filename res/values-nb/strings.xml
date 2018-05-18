@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Skjermbilde</string>
   <string name="power_menu_airplane_title">Flymodus</string>
   <string name="power_menu_users_title">Brukerbytte</string>
-  <string name="power_menu_settings_title">Innstillinger snarvei</string>
-  <string name="power_menu_lockdown_title">Nedlåsing av enhet</string>
   <string name="power_menu_bug_report_title">Feilrapport</string>
-  <string name="power_menu_sound_title">Lyd-panel</string>
   <string name="power_menu_bug_report_disabled">Feilrapportering er deaktivert i innstillingene for utvikling</string>
+  <string name="power_menu_sound_title">Lyd-panel</string>
   <string name="volume_keys_control_ring_stream_title">Ringetone volumkontroll</string>
   <string name="volume_keys_control_ring_stream_summary_on">Volumtastene styrer ringetonevolum</string>
   <string name="volume_keys_control_ring_stream_summary_off">Volumtastene styrer media volum</string>
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrer når en berøringsskjermsbevegelse oppdages</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Dra ned med to fingre</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Dra opp med en finger</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Dra opp fra Hjem-knappen</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Dra ned med en finger</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Dra til venstre med en finger</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Dra til høyre med en finger</string>
@@ -552,6 +551,11 @@
   <string name="touchscreen_gesture_letter_w_title">Tegn bokstaven \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Tegn bokstaven \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Dra opp med pennen</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Dra ned med pennen</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Dra til venstre med pennen</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Dra til høyre med pennen</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Hold ned pennen</string>
   <string name="touchscreen_gesture_action_dialog_title">Bevegelses-handling</string>
   <string name="touchscreen_gesture_action_do_nothing">Ikke gjør noe</string>
   <string name="touchscreen_gesture_action_flashlight">Slå av/på lommelykten</string>
@@ -563,4 +567,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Spill av/pause musikkavspilling</string>
   <string name="touchscreen_gesture_action_previous_track">Gå til forrige musikkspor</string>
   <string name="touchscreen_gesture_action_next_track">Hopp til neste musikkspor</string>
+  <string name="touchscreen_gesture_action_volume_down">Redusere media-volum</string>
+  <string name="touchscreen_gesture_action_volume_up">Øke media-volum</string>
 </resources>

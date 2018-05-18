@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Скриншот</string>
   <string name="power_menu_airplane_title">Режим полета</string>
   <string name="power_menu_users_title">Переключение пользователей</string>
-  <string name="power_menu_settings_title">Ярлык настроек</string>
-  <string name="power_menu_lockdown_title">Блокировка устройства</string>
   <string name="power_menu_bug_report_title">Отчет об ошибке</string>
-  <string name="power_menu_sound_title">Звуковая панель</string>
   <string name="power_menu_bug_report_disabled">Отчет об ошибке отключен в настройках для разработчика</string>
+  <string name="power_menu_sound_title">Звуковая панель</string>
   <string name="volume_keys_control_ring_stream_title">Регулировка громкости рингтона</string>
   <string name="volume_keys_control_ring_stream_summary_on">Кнопки громкости регулируют громкость рингтона</string>
   <string name="volume_keys_control_ring_stream_summary_off">Кнопки громкости регулируют громкость мультимедиа</string>
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Вибрировать при распознавании жеста</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Провести двумя пальцами вниз</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Провести одним пальцем вверх</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Провести пальцем вверх от кнопки «Домой»</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Провести одним пальцем вниз</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Провести одним пальцем влево</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Провести одним пальцем вправо</string>

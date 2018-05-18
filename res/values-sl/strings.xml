@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Zaslonska slika</string>
   <string name="power_menu_airplane_title">Način za letalo</string>
   <string name="power_menu_users_title">Preklopnik uporabnikov</string>
-  <string name="power_menu_settings_title">Bližnjica nastavitev</string>
-  <string name="power_menu_lockdown_title">Zaklepanje naprave</string>
   <string name="power_menu_bug_report_title">Poročilo o hrošču</string>
-  <string name="power_menu_sound_title">Zvočna plošča</string>
   <string name="power_menu_bug_report_disabled">V nastavitvah za razvijalce je poročanje o hrošču onemogočeno</string>
+  <string name="power_menu_sound_title">Zvočna plošča</string>
   <string name="volume_keys_control_ring_stream_title">Nadzor glasnosti zvonjenja</string>
   <string name="volume_keys_control_ring_stream_summary_on">Gumba za glasnost nadzirata glasnost zvonjenja</string>
   <string name="volume_keys_control_ring_stream_summary_off">Gumba za glasnost nadzirata glasnost predstavnosti</string>
@@ -457,7 +455,7 @@
   <string name="anonymous_statistics_summary">Pomagajte izboljšati LineageOS tako, da izberete pošiljanje anonimne statistike</string>
   <string name="anonymous_statistics_warning_title">O aplikaciji</string>
   <string name="anonymous_statistics_warning">Izbira statistike LineageOS bo dovolila pošiljanje neosebnih podatkov
-        razvijalcem LineageOSa, da lahko sledijo edinstvenim namestitvam v napravah. Poslani podatki vključujejo edinstven določilnik,
+        razvijalcem LineageOS-a, da lahko sledijo edinstvenim namestitvam v napravah. Poslani podatki vključujejo edinstven določilnik,
         ki ne ogroža vaše zasebnosti in osebnih podatkov. Podatki so poslani ob vsakem zagonu.\n\nZa primer poslanih podatkov tapnite Predogled podatkov.</string>
   <string name="enable_reporting_title">Omogoči poročanje</string>
   <string name="preview_data_title">Predogled podatkov</string>
@@ -538,20 +536,21 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibriraj, ko je zaznana poteza na zaslonu na dotik</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Poteg navzdol z dvema prstoma</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Poteg navzgor z enim prstom</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Poteg navzgor iz gumba Domov</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Poteg navzdol z enim prstom</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Poteg levo z enim prstom</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Poteg desno z enim prstom</string>
-  <string name="touchscreen_gesture_up_arrow_title">Narišite \"Λ\"</string>
-  <string name="touchscreen_gesture_down_arrow_title">Narišite \"V\"</string>
-  <string name="touchscreen_gesture_left_arrow_title">Narišite \"&lt;\"</string>
-  <string name="touchscreen_gesture_right_arrow_title">Narišite \"&gt;\"</string>
-  <string name="touchscreen_gesture_letter_c_title">Narišite črko \"C\"</string>
-  <string name="touchscreen_gesture_letter_e_title">Narišite črko \"e\"</string>
-  <string name="touchscreen_gesture_letter_o_title">Narišite črko \"O\"</string>
-  <string name="touchscreen_gesture_letter_m_title">Narišite črko \"M\"</string>
-  <string name="touchscreen_gesture_letter_s_title">Narišite črko \"S\"</string>
-  <string name="touchscreen_gesture_letter_v_title">Narišite črko \"V\"</string>
-  <string name="touchscreen_gesture_letter_w_title">Narišite črko \"W\"</string>
+  <string name="touchscreen_gesture_up_arrow_title">Narišite »Λ«</string>
+  <string name="touchscreen_gesture_down_arrow_title">Narišite »V«</string>
+  <string name="touchscreen_gesture_left_arrow_title">Narišite »&lt;«</string>
+  <string name="touchscreen_gesture_right_arrow_title">Narišite »&gt;«</string>
+  <string name="touchscreen_gesture_letter_c_title">Narišite črko »C«</string>
+  <string name="touchscreen_gesture_letter_e_title">Narišite črko »e«</string>
+  <string name="touchscreen_gesture_letter_o_title">Narišite črko »O«</string>
+  <string name="touchscreen_gesture_letter_m_title">Narišite črko »M«</string>
+  <string name="touchscreen_gesture_letter_s_title">Narišite črko »S«</string>
+  <string name="touchscreen_gesture_letter_v_title">Narišite črko »V«</string>
+  <string name="touchscreen_gesture_letter_w_title">Narišite črko »W«</string>
   <string name="touchscreen_gesture_letter_z_title">Narišite črko \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
   <string name="touchscreen_gesture_swipe_up_stylus_title">Poteg navzgor s pisalom</string>
@@ -561,7 +560,7 @@
   <string name="touchscreen_gesture_long_press_stylus_title">Dolg pritisk s pisalom</string>
   <string name="touchscreen_gesture_action_dialog_title">Dejanje poteze</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne naredi ničesar</string>
-  <string name="touchscreen_gesture_action_flashlight">Vklop/izklop svetilke</string>
+  <string name="touchscreen_gesture_action_flashlight">Preklopi svetilko</string>
   <string name="touchscreen_gesture_action_camera">Odpri fotoaparat</string>
   <string name="touchscreen_gesture_action_browser">Odpri brskalnik</string>
   <string name="touchscreen_gesture_action_dialer">Odpri klicalnik</string>

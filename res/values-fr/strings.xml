@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Capture d\'écran</string>
   <string name="power_menu_airplane_title">Mode Avion</string>
   <string name="power_menu_users_title">Changer d\'utilisateur</string>
-  <string name="power_menu_settings_title">Raccourci vers les paramètres</string>
-  <string name="power_menu_lockdown_title">Verrouillage de l\'appareil</string>
   <string name="power_menu_bug_report_title">Rapport de bug</string>
-  <string name="power_menu_sound_title">Panneau du son</string>
   <string name="power_menu_bug_report_disabled">Le rapport de bug est désactivé dans les paramètres de développement</string>
+  <string name="power_menu_sound_title">Panneau du son</string>
   <string name="volume_keys_control_ring_stream_title">Contrôler le volume de la sonnerie</string>
   <string name="volume_keys_control_ring_stream_summary_on">Les touches du volume contrôlent le volume de la sonnerie</string>
   <string name="volume_keys_control_ring_stream_summary_off">Les touches du volume contrôlent le volume des médias</string>
@@ -428,7 +426,7 @@
   <string name="status_bar_brightness_slider_title">Curseur de luminosité</string>
   <string name="status_bar_brightness_slider_summary">Régler la luminosité les réglages rapides</string>
   <string name="status_bar_brightness_slider_auto_title">Luminosité automatique</string>
-  <string name="status_bar_brightness_slider_auto_summary">Voir le bouton pour la luminosité adaptative près du curseur</string>
+  <string name="status_bar_brightness_slider_auto_summary">Afficher le bouton pour la luminosité adaptative près du curseur</string>
   <string name="status_bar_toggle_brightness">Contrôle de la luminosité</string>
   <string name="status_bar_toggle_brightness_summary">Régler la luminosité en glissant sur la barre d\'état</string>
   <!-- Status bar - icon blacklist -->
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrer quand un geste tactile est détecté</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Glisser vers le bas avec deux doigts</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Glisser vers le haut avec un doigt</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Balayer vers le haut depuis le bouton d\'accueil</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Glisser vers le bas avec un doigt</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Glisser vers la gauche avec un doigt</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Glisser vers la droite avec un doigt</string>
@@ -552,6 +551,11 @@
   <string name="touchscreen_gesture_letter_w_title">Dessiner la lettre « W »</string>
   <string name="touchscreen_gesture_letter_z_title">Dessinez la lettre « Z »</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Glisser vers le haut avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Glisser vers le bas avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Glisser vers la gauche avec le stylet</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Glisser vers la droite avec le stylet</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Appuyer longuement avec le stylet</string>
   <string name="touchscreen_gesture_action_dialog_title">Action lors d\'un geste tactile</string>
   <string name="touchscreen_gesture_action_do_nothing">Ne rien faire</string>
   <string name="touchscreen_gesture_action_flashlight">Activer/Désactiver la lampe de poche</string>

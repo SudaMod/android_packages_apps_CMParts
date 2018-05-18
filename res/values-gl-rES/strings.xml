@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Captura de pantalla</string>
   <string name="power_menu_airplane_title">Modo avión</string>
   <string name="power_menu_users_title">Selector de usuario</string>
-  <string name="power_menu_settings_title">Atallos da configuración</string>
-  <string name="power_menu_lockdown_title">Bloqueo de dispositivo</string>
   <string name="power_menu_bug_report_title">Informe de erros</string>
-  <string name="power_menu_sound_title">Panel de sonido</string>
   <string name="power_menu_bug_report_disabled">O informe de erros está desativado nas opcións de desenvolvemento</string>
+  <string name="power_menu_sound_title">Panel de sonido</string>
   <string name="volume_keys_control_ring_stream_title">Control do volume do ton</string>
   <string name="volume_keys_control_ring_stream_summary_on">As teclas de volume controlan o volume do ton de chamada</string>
   <string name="volume_keys_control_ring_stream_summary_off">As teclas de volume controlan o volume multimedia</string>
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrar cando se detecta un xesto táctil</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Deslizar hacia abaixo con dos dedos</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Deslizar hacia arriba con un dedo</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Esvarar cara arriba dende o botón de inicio</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar hacia abaixo con un dedo</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Deslizar hacia a esquerda con un dedo</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Deslizar á dereita con un dedo</string>

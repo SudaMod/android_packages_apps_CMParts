@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Bildschirmfoto</string>
   <string name="power_menu_airplane_title">Flugmodus</string>
   <string name="power_menu_users_title">Benutzer wechseln</string>
-  <string name="power_menu_settings_title">Einstellungsverknüpfung</string>
-  <string name="power_menu_lockdown_title">Gerät sperren</string>
   <string name="power_menu_bug_report_title">Fehlerbericht</string>
-  <string name="power_menu_sound_title">Ton-Einstellungen</string>
   <string name="power_menu_bug_report_disabled">Fehlerberichte sind in Entwicklereinstellungen deaktiviert</string>
+  <string name="power_menu_sound_title">Ton-Einstellungen</string>
   <string name="volume_keys_control_ring_stream_title">Klingeltonlautstärke steuern</string>
   <string name="volume_keys_control_ring_stream_summary_on">Lautstärketasten steuern Klingeltonlautstärke</string>
   <string name="volume_keys_control_ring_stream_summary_off">Lautstärketasten steuern Medienlautstärke</string>
@@ -456,7 +454,7 @@
   <string name="anonymous_statistics_title">LineageOS-Statistiken</string>
   <string name="anonymous_statistics_summary">Helfen Sie uns, LineageOS zu verbessern, indem Sie dem Sammeln anonymer Gerätestatistiken zustimmen.</string>
   <string name="anonymous_statistics_warning_title">Über</string>
-  <string name="anonymous_statistics_warning">Die Aktivierung der Cyanogenmod-Statistiken ermöglicht die Übertragung von nicht-personenbezogenen Daten an die Entwickler von LineageOS. Die bei jedem Neustart des Geräts übermittelten Daten beeinträchtigen nicht die Privatsphäre, da sie keinerlei Rückschlüsse auf den Benutzer zulassen.\n\nFür ein Beispiel der gesendeten Daten bitte auf \"Vorschau\" klicken.</string>
+  <string name="anonymous_statistics_warning">Die Aktivierung der LineageOS-Statistiken ermöglicht die Übertragung von nicht-personenbezogenen Daten an die Entwickler von LineageOS. Die bei jedem Neustart des Geräts übermittelten Daten beeinträchtigen nicht die Privatsphäre, da sie keinerlei Rückschlüsse auf den Benutzer zulassen.\n\nFür ein Beispiel der gesendeten Daten bitte auf \"Vorschau\" klicken.</string>
   <string name="enable_reporting_title">Berichte einschalten</string>
   <string name="preview_data_title">Vorschau</string>
   <string name="view_stats_title">Statistiken anzeigen</string>
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrieren, wenn eine Bildschirmgeste erkannt wurde</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Mit zwei Fingern nach unten wischen</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Mit einem Finger nach oben wischen</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Von der Home-Taste aus nach oben wischen</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Mit einem Finger nach unten wischen</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Mit einem Finger nach links wischen</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Mit einem Finger nach rechts wischen</string>

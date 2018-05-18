@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Captura de pantalla</string>
   <string name="power_menu_airplane_title">Mode avió</string>
   <string name="power_menu_users_title">Intercanviador d\'usuaris</string>
-  <string name="power_menu_settings_title">Drecera a la configuració</string>
-  <string name="power_menu_lockdown_title">Bloqueig del dispositiu</string>
   <string name="power_menu_bug_report_title">Informe d\'error</string>
-  <string name="power_menu_sound_title">Panell de so</string>
   <string name="power_menu_bug_report_disabled">Els informes d\'error estan deshabilitats a les opcions de desenvolupament</string>
+  <string name="power_menu_sound_title">Panell de so</string>
   <string name="volume_keys_control_ring_stream_title">Controla el volum de la trucada</string>
   <string name="volume_keys_control_ring_stream_summary_on">Les tecles de volum controlen el volum del to de trucada</string>
   <string name="volume_keys_control_ring_stream_summary_off">Les tecles de volum controlen el volum multimèdia</string>
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibra quan es detecti un gest a la pantalla tàctil</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Llisca avall amb dos dits</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Llisca amunt amb un dit</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Llisca cap amunt des del botó d\'inici</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Llisca avall amb un dit</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Llisca a l\'esquerra amb un dit</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Llisca a la dreta amb un dit</string>

@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Kuvakaappaus</string>
   <string name="power_menu_airplane_title">Lentotila</string>
   <string name="power_menu_users_title">Käyttäjän vaihto</string>
-  <string name="power_menu_settings_title">Asetusten pikakuvake</string>
-  <string name="power_menu_lockdown_title">Laitteen lukitus</string>
   <string name="power_menu_bug_report_title">Virheraportti</string>
-  <string name="power_menu_sound_title">Äänipaneeli</string>
   <string name="power_menu_bug_report_disabled">Virheraportointi on poistettu käytöstä kehittäjäasetuksista</string>
+  <string name="power_menu_sound_title">Äänipaneeli</string>
   <string name="volume_keys_control_ring_stream_title">Ohjaa soittoäänen äänenvoimakkuutta</string>
   <string name="volume_keys_control_ring_stream_summary_on">Soittoäänen voimakkuuden ohjaus äänenvoimakkuusnäppäimillä</string>
   <string name="volume_keys_control_ring_stream_summary_off">Median äänenvoimakkuuden ohjaus äänenvoimakkuusnäppäimillä</string>
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Värinä kun kosketusnäytön ele tunnistetaan</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Pyyhkäise alas kahdella sormella</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Pyyhkäise ylös yhdellä sormella</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Pyyhkäise ylös kotinäppäimestä</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Pyyhkäise alas yhdellä sormella</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Pyykäise vasemmalle yhdellä sormella</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Pyyhkäise oikealle yhdellä sormella</string>
@@ -552,6 +551,11 @@
   <string name="touchscreen_gesture_letter_w_title">Piirrä \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Piirrä \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Pyyhkäise ylös stylus-kynällä</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Pyyhkäise alas stylus-kynällä</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Pyyhkäise vasemmalle stylus-kynällä</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Pyyhkäise oikealle stylus-kynällä</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Pitkä painallus stylus-kynällä</string>
   <string name="touchscreen_gesture_action_dialog_title">Eleen toiminto</string>
   <string name="touchscreen_gesture_action_do_nothing">Älä tee mitään</string>
   <string name="touchscreen_gesture_action_flashlight">Käynnistä taskulamppu</string>
@@ -563,4 +567,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Toista/Keskeytä musiikki</string>
   <string name="touchscreen_gesture_action_previous_track">Siirry edelliseen musiikkikappaleeseen</string>
   <string name="touchscreen_gesture_action_next_track">Siirry seuraavaan musiikkikappaleeseen</string>
+  <string name="touchscreen_gesture_action_volume_down">Pienennä median äänenvoimakkuutta</string>
+  <string name="touchscreen_gesture_action_volume_up">Nosta median äänenvoimakkuutta</string>
 </resources>

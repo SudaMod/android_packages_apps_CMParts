@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Tangkap layar</string>
   <string name="power_menu_airplane_title">Mode pesawat</string>
   <string name="power_menu_users_title">Beralih pengguna</string>
-  <string name="power_menu_settings_title">Setelan pintasan</string>
-  <string name="power_menu_lockdown_title">Perangkat mengunci</string>
   <string name="power_menu_bug_report_title">Lapor bug</string>
-  <string name="power_menu_sound_title">Panel suara</string>
   <string name="power_menu_bug_report_disabled">Pelaporan bug dimatikan dalam opsi pengembang</string>
+  <string name="power_menu_sound_title">Panel suara</string>
   <string name="volume_keys_control_ring_stream_title">Kontrol volume nada dering</string>
   <string name="volume_keys_control_ring_stream_summary_on">Tombol volume mengatur volume nada dering</string>
   <string name="volume_keys_control_ring_stream_summary_off">Tombol volume mengontrol volume media</string>
@@ -536,6 +534,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Bergetar ketika gerakan layar sentuh terdeteksi</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Usap ke bawah dengan dua jari</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Usap ke atas dengan satu jari</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Usap ke atas dari tombol home</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Usap ke bawah dengan satu jari</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Usap ke kiri dengan satu jari</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Usap ke kanan dengan satu jari</string>
@@ -552,6 +551,11 @@
   <string name="touchscreen_gesture_letter_w_title">Gambar huruf \"W\"</string>
   <string name="touchscreen_gesture_letter_z_title">Gambar huruf \"Z\"</string>
   <!-- Gesture: Stylus gestures -->
+  <string name="touchscreen_gesture_swipe_up_stylus_title">Usap ke atas dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_down_stylus_title">Usap ke bawah dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_left_stylus_title">Usap ke kiri dengan stylus</string>
+  <string name="touchscreen_gesture_swipe_right_stylus_title">Usap ke kanan dengan stylus</string>
+  <string name="touchscreen_gesture_long_press_stylus_title">Tekan lama dengan stylus</string>
   <string name="touchscreen_gesture_action_dialog_title">Tindakan gerakan</string>
   <string name="touchscreen_gesture_action_do_nothing">Jangan lakukan apa-apa</string>
   <string name="touchscreen_gesture_action_flashlight">Hidup/matikan senter</string>
@@ -563,4 +567,6 @@
   <string name="touchscreen_gesture_action_play_pause_music">Putar/jeda pemutaran musik</string>
   <string name="touchscreen_gesture_action_previous_track">Kembali ke trek musik sebelumnya</string>
   <string name="touchscreen_gesture_action_next_track">Lanjut ke trek musik berikutnya</string>
+  <string name="touchscreen_gesture_action_volume_down">Turunkan volume media</string>
+  <string name="touchscreen_gesture_action_volume_up">Tingkatkan volume media</string>
 </resources>

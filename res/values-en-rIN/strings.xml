@@ -227,11 +227,9 @@
   <string name="power_menu_screenshot_title">Screenshot</string>
   <string name="power_menu_airplane_title">Aeroplane mode</string>
   <string name="power_menu_users_title">User switcher</string>
-  <string name="power_menu_settings_title">Settings shortcut</string>
-  <string name="power_menu_lockdown_title">Device lockdown</string>
   <string name="power_menu_bug_report_title">Bug report</string>
-  <string name="power_menu_sound_title">Sound panel</string>
   <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+  <string name="power_menu_sound_title">Sound panel</string>
   <string name="volume_keys_control_ring_stream_title">Control ringtone volume</string>
   <string name="volume_keys_control_ring_stream_summary_on">Volume keys control ringtone volume</string>
   <string name="volume_keys_control_ring_stream_summary_off">Volume keys control media volume</string>
@@ -538,6 +536,7 @@
   <string name="touchscreen_gestures_haptic_feedback_summary">Vibrate when a touchscreen gesture is detected</string>
   <string name="touchscreen_gesture_two_finger_down_swipe_title">Swipe down with two fingers</string>
   <string name="touchscreen_gesture_one_finger_up_swipe_title">Swipe up with one finger</string>
+  <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Swipe up from the home button</string>
   <string name="touchscreen_gesture_one_finger_down_swipe_title">Swipe down with one finger</string>
   <string name="touchscreen_gesture_one_finger_left_swipe_title">Swipe left with one finger</string>
   <string name="touchscreen_gesture_one_finger_right_swipe_title">Swipe right with one finger</string>
